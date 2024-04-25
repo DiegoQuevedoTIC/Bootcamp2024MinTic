@@ -1,0 +1,14 @@
+footer {
+  background-color: #333;
+  /* Color de fondo */
+  color: #e7c6c6;
+  /* Color del texto */
+  text-align: center;
+
+  padding: 20px;
+}
+
+.footer-link {
+  background-color: #333;
+  color: #e7c6c6;
+}

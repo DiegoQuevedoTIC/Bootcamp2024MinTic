@@ -1,0 +1,9 @@
+.icono-en-medio {
+  display: flex;
+  align-items: center;
+}
+
+.icono-en-medio img {
+  margin-right: 5px;
+  /* Puedes ajustar este valor según sea necesario */
+}

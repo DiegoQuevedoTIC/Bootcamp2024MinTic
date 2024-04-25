@@ -1,0 +1,28 @@
+<p>Nombre de Participantes</p>
+
+
+
+<span>
+  <table>
+    <thead class="encabezado">
+      <th>Nombre</th>
+      <th>Edad</th>
+      <th>Estatura</th>
+    </thead>
+    <tbody class="cuerpo">
+      @for (nombre of nombres; track $index) {
+        <tr>
+          <td>
+        {{nombre.nombre}}
+          </td>
+          <td>
+        {{nombre.edad}}
+          </td>
+          <td>
+        {{nombre.estatura}}
+          </td>
+        </tr>
+        }
+    </tbody>
+  </table>
+</span>

@@ -1,0 +1,28 @@
+<h4 class = "text-center"> {{titulo}} </h4>
+
+<table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Nombre</th>
+      <th scope="col">Tipo Documento</th>
+      <th scope="col">No Documento</th>
+      <th scope="col">Mail</th>
+      <th scope="col">Telefono</th>
+      <th scope="col">Peso</th>
+      <th scope="col">Fecha de Nacimiento</th>
+    </tr>
+  </thead>
+  <tbody>
+    @for (persona of personas; track $index) {
+    <tr>
+      <td>{{persona.nombre}}</td>
+      <td>{{persona.tipoDocumento}}</td>
+      <td>{{persona.numeroDocumento}}</td>
+      <td>{{persona.email}}</td>
+      <td>{{persona.numeroCelular}}</td>
+      <td>{{persona.peso}}</td>
+      <td>{{persona.fechaNacimiento | date : "mediumDate" : "UTC" }}</td>
+    </tr>
+}
+  </tbody>
+</table>
