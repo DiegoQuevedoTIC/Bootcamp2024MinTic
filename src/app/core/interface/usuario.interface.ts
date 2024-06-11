@@ -1,11 +1,11 @@
-export interface UsuarioInterface{
+export interface crearUsuarioInterface {
   nombre: string;
-  fechaNacimiento?: Date;
-  peso?: string;
+  email: string;
   tipoDocumento: string;
   numeroDocumento: string;
-  numeroCelular?: string;
-  email: string;
   rol?: string;
+  numeroCelular?: number;
+  peso?: string;
+  fechaNacimiento?: Date;
   password?: string;
 }

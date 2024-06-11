@@ -11,7 +11,7 @@ describe('TablaComponent', () => {
       imports: [TablaComponent]
     })
     .compileComponents();
-    
+
     fixture = TestBed.createComponent(TablaComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
@@ -21,3 +21,4 @@ describe('TablaComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
