@@ -1,7 +1,7 @@
 import { MenuInfoInterface } from './../../core/interface/menu-info.interface';
 import { Component, OnInit, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
-import { MenuRoutes } from '../../core/menu/menu';
+import { MenuRoutes } from '../../menu/menu';
 import { UsuariosService } from '../../services/usuarios/usuarios.service';
 import { RolDirective } from '../../core/directives/rol/rol.directive';
 
