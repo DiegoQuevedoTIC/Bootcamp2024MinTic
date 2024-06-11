@@ -7,7 +7,7 @@ export enum PATH {
   INICIO='inicio',
   PERSONA='personas',
   NOMBRE='nombres',
-  USUARIO='usuarios',
+  USUARIO='usuario',
   CREAR_USUARIOS = 'crear-usuarios',
   PRODUCTOS = 'productos',
   CREAR_PRODUCTOS = 'crear-productos',

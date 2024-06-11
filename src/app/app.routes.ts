@@ -9,7 +9,7 @@ import { AcercaDeComponent } from './pages/acerca-de/acerca-de.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 import { ProductosComponent } from './pages/administrar-productos/productos/productos.component';
 import { CrearproductosComponent } from './pages/administrar-productos/crearproductos/crearproductos.component';
-import { LoginComponent } from '../auth/login/login.component';
+import { LoginComponent } from './auth/login/login.component';
 import { authGuard } from './core/guards/auth/auth.guard';
 import { productosResolver } from './core/resolvers/productos/productos.resolver';
 import { UsuariosComponent } from './pages/administrar-usuarios/usuarios/usuarios.component';
