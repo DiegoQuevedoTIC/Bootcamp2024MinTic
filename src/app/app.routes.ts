@@ -7,7 +7,6 @@ import { NombreComponent } from './pages/nombre/nombre.component';
 import { InicioComponent } from './pages/inicio/inicio.component';
 import { AcercaDeComponent } from './pages/acerca-de/acerca-de.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
-import { UsuarioComponent } from './pages/usuario/usuario.component';
 import { ProductosComponent } from './pages/administrar-productos/productos/productos.component';
 import { CrearproductosComponent } from './pages/administrar-productos/crearproductos/crearproductos.component';
 import { LoginComponent } from '../auth/login/login.component';
@@ -56,11 +55,6 @@ export const routes: Routes = [
         path: PATH.NOMBRE,
         title : 'nombres',
         component: NombreComponent,
-      }      ,
-      {
-        path: PATH.USUARIO,
-        title : 'usuarios',
-        component: UsuarioComponent,
       },
       {
         path: `${PATH.CREAR_USUARIOS}/:id`,
