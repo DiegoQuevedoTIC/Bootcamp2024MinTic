@@ -14,7 +14,14 @@ import { RolDirective } from './core/directives/rol/rol.directive';
     standalone: true,
     templateUrl: './app.component.html',
     styleUrl: './app.component.css',
-    imports: [RouterOutlet, InicioComponent, ArticuloComponent, NombreComponent, PersonaComponent, HeaderComponent, FooterComponent , RolDirective,
+    imports: [RouterOutlet,
+              InicioComponent,
+              ArticuloComponent,
+              NombreComponent,
+              PersonaComponent,
+              HeaderComponent,
+              FooterComponent ,
+              RolDirective,
     ],
 })
 export class AppComponent {

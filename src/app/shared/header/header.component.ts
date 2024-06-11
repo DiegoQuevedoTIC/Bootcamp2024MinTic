@@ -1,4 +1,4 @@
-import { MenuInfoInterface } from './../../core/interface/menu-info.interface';
+import { MenuInfoInterface } from '../../core/interface/menu_info.interface';
 import { Component, OnInit, inject } from '@angular/core';
 import { RouterLink } from '@angular/router';
 import { MenuRoutes } from '../../menu/menu';
