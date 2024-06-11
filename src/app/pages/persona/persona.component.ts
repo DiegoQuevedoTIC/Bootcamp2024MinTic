@@ -9,10 +9,12 @@ import { TablaComponent } from '../../components/tabla/tabla.component';
   templateUrl: './persona.component.html',
   styleUrl: './persona.component.css',
 })
+
 export class PersonaComponent implements OnInit {
   personas: PersonaInterface[] = [];
-  tituloTabla: string='Listado de Personas Unicas';
-  
+  tituloTabla: string = 'Lista de Personas';
+  columnas: string[] = [];
+
   ngOnInit(): void {
     this.personas = [
       {
@@ -52,5 +54,13 @@ export class PersonaComponent implements OnInit {
         peso: '23',
       },
     ];
+
+    this.obtenerColumnas(this.personas);
+  }
+
+    obtenerColumnas(personas: PersonaInterface[]) {
+    if (personas.length > 0) {
+      this.columnas = Object.keys(personas[0]);
+    }
   }
 }
