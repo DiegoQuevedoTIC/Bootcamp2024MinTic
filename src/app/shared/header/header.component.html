@@ -21,7 +21,7 @@
           <i class=".icono-en-medio img" [class]="menu.icon"></i>
           <a class="nav-link" [routerLink]="menu.path">{{ menu.title }}</a>
         </li>
-        @if (menu.subMenu?.length !==0) {
+        @if (menu.subMenu.length > 0) {
         <!-- Este es el submenu -->
         <li class="nav-item dropdown">
           <a
